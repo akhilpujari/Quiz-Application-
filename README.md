@@ -29,27 +29,6 @@ A web-based Quiz Application built with **HTML, CSS, jQuery, PHP, and PostgreSQL
 
 ---
 
-## 📂 Project Structure
-
-quiz-application/
-├── index.html
-├── login.php
-├── dashboard.php
-├── quiz.php
-├── result.php
-├── admin/
-│ ├── add_subject.php
-│ ├── add_quiz.php
-│ └── reports.php
-├── assets/
-│ ├── css/
-│ ├── js/
-│ └── images/
-├── cert_generator.php
-└── README.md
-
----
-
 ## 🧪 How to Run the Project
 
 1. **Clone the repository**:
