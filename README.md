@@ -39,7 +39,7 @@ A web-based Quiz Application built with **HTML, CSS, jQuery, PHP, and PostgreSQL
    Create a new database.
    Take the reference from this  SQL schema from this link =>  https://dbdiagram.io/d/67d2d38775d75cc844f62f59.
    Update the DB credentials in your PHP connection file (/api/utils/db.php or wherever you initialized PDO).
-   make sure to enable the necessary psql extensions in php.ini file (important doest work if not enabled)
+   make sure to enable the necessary psql extensions in php.ini file ( doesn't work if not enabled)
 
 3. **Start the server in local**:
     use this command in terminal
