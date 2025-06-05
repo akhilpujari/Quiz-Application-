@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+       <div class="container my-5">
+            <div class="row p-5 shadow-lg rounded-3 ">
+
+                <div class="col-md-6 mt-2 ">
+                    <h1 class="mb-3">Sign In</h1>
+                    <form >
+                        <div class="mb-3">
+                            <label for="firstname" class="form-label">firstname</label>
+                            <input type="text" class="form-control" id="firstname" >
+                            <p class="text-danger" id="errorfirstname"></p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastname" class="form-label">lastname</label>
+                            <input type="text" class="form-control" id="lastname"  >
+                            <p class="text-danger" id="errorlastname"></p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username"  >
+                            <p class="text-danger" id="errorusername"></p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" >
+                            <p class="text-danger" id="errorpassword"></p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirm_password" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirm_password" >
+                            <p class="text-danger" id="errorconfirm_password"></p>
+                        </div>
+                        <button type="submit" class="btn btn-primary col-12" onclick="register(event)">Sign Up</button>
+                        <p class="text-danger" id="errormsg"></p>
+                    </form>
+
+                </div>
+
+                <div class="col-md-6 d-none d-md-block mt-5">
+                    <img class="img-fluid ms-5  w-75" src="https://colorlib.com/etc/regform/colorlib-regform-7/images/signup-image.jpg" alt="Placeholder Image">
+                </div>
+
+            </div>
+       </div>
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+         <script src="registration.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

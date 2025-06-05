@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+                <span class="d-none d-sm-inline">QuizLand</span>
+                <span class="ms-5 fw-bold text-light" id="name"></span>
+            </a>
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active d-flex align-items-center" href="#">
+                            <i class="bi bi-trophy me-1"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active d-flex align-items-center" href="userhistory.html">
+                            <i class="bi bi-house-door me-1"></i>
+                            <span>User History</span>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active d-flex align-items-center" href="subjectreport.html">
+                            <i class="bi bi-trophy me-1"></i>
+                            <span>subjects Report</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+                <div class="d-flex">
+                    <button id="signout" class="btn btn-outline-light rounded-pill d-flex align-items-center">
+                        <i class="bi bi-box-arrow-right me-1"></i>
+                        <span class="d-none d-md-inline">Sign Out</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+       <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+       <script src="admindashboard.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

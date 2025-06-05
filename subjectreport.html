@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-light">
+    <div id="navbar-container"></div>
+
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="mb-4">
+                    <label for="selectSubject" class="form-label fw-semibold text-dark">Select Subject</label>
+                    <select class="form-select form-select-lg subject">
+                        <option selected disabled>Choose subject</option>
+                        <div class="subject_option"></div>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mb-4">
+            <div class="col-12 text-center">
+                <h3 class="fw-bold text-primary">Subject Performance Overview</h3>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <canvas id="subjectChart" width="400" height="400"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#navbar-container").load("admindashboard.html");
+        });
+    </script>
+    <script src="subjectreport.js"></script>
+</body>
+</html>
